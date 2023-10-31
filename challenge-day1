@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#task 1 #this shell scripts is use for create user.
+
+#task 2 :echo
+echo "enter file name"
+
+#task 3 : veriable (filename)
+read filename
+
+#task 4 : using variables (filename)
+touch $filename
+
+echo "your file is created sucessfully..."
+
+# Task  5: Using Built-in Variables
+
+echo "My current bash path - $BASH"
+echo "Bash version I am using - $BASH_VERSION"
+echo "current os version?"   $whoami
+echo "My home directory - $HOME"
+echo "Where am I currently? - $PWD"
+echo "My hostname - $HOSTNAME"
+
+echo "Files with .sh extension in the current directory:"
+ls *.sh
+~         
